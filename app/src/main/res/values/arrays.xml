@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="currency">
-        <item>Рубли в доллары</item>
-        <item>Доллары в рубли</item>
+        <item>Рубли</item>
+        <item>Доллары</item>
+        <item>Евро</item>
+        <item>Фунты</item>
+        <item>Гривны</item>
+        <item>Китайские юани</item>
     </string-array>
 </resources>
