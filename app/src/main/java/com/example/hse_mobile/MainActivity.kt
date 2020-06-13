@@ -10,10 +10,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         submit_button.setOnClickListener{
-            Log.d("tag", "${Number_1.text}")
             if(Number_1.text.isNotEmpty()){
-                var dollars = 74 * Number_1.text.toString().toInt()
-                Number_2.setText("$dollars $")
+                if(spinner.getSelectedItemPosition() == 0){
+                    var dollars = 74 * Number_1.text.toString().toDouble()
+                    Number_2.setText("$dollars $")
+                }
+                else {
+                    var rubles =  Number_1.text.toString().toDouble() / 74
+                    Number_2.setText("$rubles ₽")
+                }
             }
         }
     }
