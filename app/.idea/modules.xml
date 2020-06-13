@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-391696748/HSE_mobile.iml" filepath="$PROJECT_DIR$/.idea/modules/-391696748/HSE_mobile.iml" group="HSE_mobile" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" group="HSE_mobile/app" />
+    </modules>
+  </component>
+</project>

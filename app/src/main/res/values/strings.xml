@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">HSE_mobile</string>
+    <string name="submit_button_text">Перевести</string>
+    <string name="enter_money">Введите рубли</string>
 </resources>
